@@ -1,0 +1,50 @@
+﻿@model MVCKullaniciKaydi.Models.Kullanicilar
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Kullanicilar</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Kullanici_Adi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Kullanici_Adi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Kullanici_Parolasi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Kullanici_Parolasi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Kullanici_Emaili)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Kullanici_Emaili)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Tarih)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Tarih)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

@@ -20,9 +20,15 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
-                    <li>@Html.ActionLink("About", "About", "Home")</li>
-                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("Ana Sayfa", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Hakkimizda", "About", "Home")</li>
+                    <li>@Html.ActionLink("Iletisim", "Contact", "Home")</li>
+                </ul>
+                <ul class="nav navbar-nav pull-right">
+
+                    <li>@Html.ActionLink("Kayit Ol", "Create", "Kullanicilar")</li>
+                    <li>@Html.ActionLink("Giris Yap", "Giris", "Kullanicilar")</li>
+
                 </ul>
             </div>
         </div>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="KullaniciGirisiModelStoreContainer" CdmEntityContainer="KullaniciGirisiEntities">
+    <EntitySetMapping Name="Kullanicilar">
+      <EntityTypeMapping TypeName="KullaniciGirisiModel.Kullanicilar">
+        <MappingFragment StoreEntitySet="Kullanicilar">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Kullanici_Adi" ColumnName="Kullanici_Adi" />
+          <ScalarProperty Name="Kullanici_Parolasi" ColumnName="Kullanici_Parolasi" />
+          <ScalarProperty Name="Kullanici_Emaili" ColumnName="Kullanici_Emaili" />
+          <ScalarProperty Name="Tarih" ColumnName="Tarih" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
